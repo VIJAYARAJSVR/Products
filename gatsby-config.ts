@@ -1,4 +1,8 @@
-module.exports = {
+import type {GatsbyConfig} from "gatsby";
+
+
+
+const config: GatsbyConfig = {
   pathPrefix: `/Products`,
   siteMetadata: {
     siteUrl: "https://vijayarajsvr.github.io/Products",
@@ -88,3 +92,4 @@ module.exports = {
     `gatsby-plugin-gatsby-cloud`,
   ],
 }
+export default config;
